@@ -472,3 +472,99 @@ ul li a:hover {
 .box-6 {
   grid-area: six;
 }
+
+/* Footer Section */
+footer {
+  margin-top: 130px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 117px;
+  background-color: var(--white);
+  border-radius: 12px;
+  padding: 50px;
+  text-align: center;
+}
+
+.footer-left h2 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-style: normal;
+  color: var(--dark);
+  margin-bottom: 26px;
+}
+
+.footer-left p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75;
+  font-style: normal;
+  color: var(--gray);
+  /*  margin-bottom: 30px; */
+}
+
+.footer-icon-parent {
+  margin-top: 30px;
+}
+
+.footer-icon-parent span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  width: 45px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: #fff;
+  color: var(--accent);
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.footer-icon-parent span:hover {
+  background: var(--accent);
+  color: white;
+  transform: translateY(-3px);
+}
+
+footer form {
+  /* background: #ffffff; */
+  text-align: left;
+  margin-top: 34px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+footer form h2 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-style: normal;
+  color: var(--dark);
+}
+
+footer form input,
+footer form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  outline: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+footer form input:focus,
+footer form textarea:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(253, 110, 10, 0.1);
+}
+
+footer form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
