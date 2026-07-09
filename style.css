@@ -357,3 +357,66 @@ ul li a:hover {
   font-size: 44px; /* controls the actual icon size */
   /*  color: var(--accent); */
 }
+
+/* Summary Section */
+.summary-parent {
+  margin: 130px auto;
+  text-align: center;
+}
+
+.summary-parent h2 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-style: normal;
+  color: var(--dark);
+  margin-bottom: 119px;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 71px;
+  margin-bottom: 50px;
+}
+
+.summary-grid-card h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-style: normal;
+  color: var(--gray);
+  margin-bottom: 35px;
+  text-align: left;
+}
+
+.summary-grid-card .summary-grid-content h4 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-style: normal;
+  color: var(--gray);
+  margin-top: 30px;
+  margin-bottom: 14px;
+  text-align: left;
+}
+
+.summary-grid-card .summary-grid-content h6 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  font-style: normal;
+  color: var(--secondary-gray);
+  margin-bottom: 23px;
+  text-align: left;
+}
+
+.summary-grid-card .summary-grid-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75;
+  font-style: normal;
+  color: var(--secondary-gray);
+  margin-bottom: 30px;
+  text-align: left;
+}
