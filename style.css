@@ -281,3 +281,79 @@ ul li a:hover {
   font-style: normal;
   color: var(--gray);
 }
+
+/* What I Do Section */
+.what-i-do-parent {
+  margin: 130px auto;
+  text-align: center;
+}
+
+.what-i-do-parent h2 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-style: normal;
+  color: var(--dark);
+  margin-bottom: 36px;
+}
+
+.what-i-do-parent p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  font-style: normal;
+  color: var(--secondary-gray);
+  margin-bottom: 50px;
+}
+
+.what-i-do-card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.what-i-do-card-container .what-i-do-card {
+  background: #ffffff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 30px;
+  text-align: left;
+  width: 267px;
+  height: 377px;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  transition: 0.2s ease;
+}
+
+.what-i-do-card-container .what-i-do-card:hover {
+  transform: scale(1.05);
+}
+
+.what-i-do-card-container .what-i-do-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-style: normal;
+  color: var(--dark);
+  margin-top: 30px;
+  margin-bottom: 23px;
+}
+
+.what-i-do-card-container .what-i-do-card p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75;
+  font-style: normal;
+  color: var(--secondary-gray);
+}
+
+.what-i-do-card .what-i-do-card-icon {
+  display: flex;
+  justify-content: space-center;
+  align-items: center;
+  height: 44px;
+  width: 100%; /* let it stretch to the card's full width instead of 44px */
+  font-size: 44px; /* controls the actual icon size */
+  /*  color: var(--accent); */
+}
